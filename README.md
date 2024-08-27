@@ -13,7 +13,7 @@ Our solution, Regularized Newton-Raphson Inversion, inverts an image within 0.5 
 <a href="https://arxiv.org/abs/2312.12540"><img src="https://img.shields.io/badge/arXiv-2304.14530-b31b1b.svg" height=22.5></a>
 
 <p align="center">
-<img src="teaser.png" width="600px"/>  
+<img src="teaser.gif" width="600px"/>  
 <br>
 
 ## Requirements
@@ -25,14 +25,14 @@ pip install -r requirements.txt
 
 ## Usage
 
-For a fast Newton-Raphson inversion (using SDXL-turbo), you can simply run 'main.py':
+To run a fast Newton-Raphson inversion (using SDXL-turbo), you can simply run 'main.py':
 
 ```
 python main.py
 ```
 
-**Baseline: Fixed-point Inversion**
-We have also implemented a fast fixed-point inversion for StableDiffuion2.1.
+**Baseline: Fixed-point Inversion.**  
+We have also implemented a fast fixed-point inversion for StableDiffuion2.1 (See more details in [our previous paper](https://arxiv.org/pdf/2312.12540v1)).
 
 ```
 cd src/FPI
