@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-To run a fast Newton-Raphson inversion (using SDXL-turbo), you can simply run 'main.py':
+For a fast Newton-Raphson inversion (using SDXL-turbo), you can simply run 'main.py':
 
 ```
 python main.py
